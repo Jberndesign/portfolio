@@ -143,9 +143,9 @@ responsive css for tablets*/
 
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+    
       <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
+
 
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
@@ -170,19 +170,22 @@ responsive css for tablets*/
   <body>
 
 <!-- Navbar -->
-    <div class="navbar navbar-static-top">
+<div class="row">
+<div class="navbar">
+    <div class="navbar navbar-inverse">
       <div class="navbar-inner">
-        <div class="container">
 
           <!-- Navbar collapse button -->
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <div class="row">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="padding-top: 30px;">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+        </div>
 
  <!--Static Navbar contents -->
-  <a class="brand" href="logo.gif"></a>
+  <a class="brand" href="logo.gif" style="padding-left:50px;"> Jason S. Bernotsky </a>
 
 <!--collapsible navbar contents -->
           <div class="nav-collapse collapse">
@@ -193,8 +196,8 @@ responsive css for tablets*/
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Vital Link Sport/Medical Watch</a></li>
-                  <li><a href="#">Aquafit Vibro-Haptic Flotation Belt</a></li>
+                  <li><a href="#watch">Vital Link Sport/Medical Watch</a></li>
+                  <li><a href="#Aquafit">Aquafit Vibro-Haptic Flotation Belt</a></li>
                   <li><a href="#">Scorpian Laptop Case</a></li>
                   <li><a href="#">Eos Bedside Lamp</a><li>
                   <li><a href="#">Charcube Stove</a><li>
@@ -212,43 +215,26 @@ responsive css for tablets*/
           </div><!--/.nav-collapse -->
         </div>
       </div>
-    </div>
+ </div>
+ </div>
 
-    <div class="container">
 
-      <img style="margin:0 auto;display:block" src= "assets/JSBlogo.png" height="250" width="250" padding-top ="60px">
+    <div class="span12" align="center">
+      <img src= "assets/JSBlogo.png" height="250" width="250" padding-top ="60px">
     <div>
    
 <hr>
-<div align="center">
+      <div align="center">
        <p> <b> Jason Stanley Bernotsky </b> <br>
         RPI Class of 2015 <br>
         Design, Innovation, and Society | Mechanical Engineering <br>
-         </p>
-</div>
+        </p>
+      </div>
+
 <hr>
 <h2 class="featurette-heading" align="center"> Projects </h2>
+<hr>
 
-
-
- <!-- Main hero unit for a primary marketing message or call to action -->
-
-
-    
-
-      <!--<div class="hero-unit">
-        <Center><h2> Projects </h2></center>
-        </div> -->
-  <!-- Main hero unit for a primary marketing message or call to action -->
-     <!--  <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div> -->
-      <!-- Example row of columns -->
-
-
-      <hr>
 <div class="row" >
  <!-- Mediwatch project graphic/information/link -->
         <div class="span2" align="center">
@@ -302,7 +288,7 @@ responsive css for tablets*/
       <div class="featurette">
 
 <!--  ================================================== -->
-          <div class="span6">
+          <div id="watch" class="span6">
             <div class="bs-docs-example">
               <div id="myCarousel" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -350,7 +336,7 @@ responsive css for tablets*/
 <!-- AQUAFIT FEATURETTE-->
       <hr class="featurette-divider">
 
-              <div class="span6">
+              <div id="Aquafit" class="span6">
             <div class="bs-docs-example">
               <div id="myCarousel2" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -360,7 +346,7 @@ responsive css for tablets*/
                 </ol>
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="images/logo.png" alt="Exploded View of an Inventor prototype of the Vital Link Watch">
+                    <img src="images/logo.png" alt="">
                     <div class="carousel-caption">
                       <h4>First Thumbnail label</h4>
                       <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -556,5 +542,6 @@ responsive css for tablets*/
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/smoothscroll.js"></script>
   </body>
 </html>

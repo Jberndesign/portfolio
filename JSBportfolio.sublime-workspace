@@ -8,11 +8,14 @@
 	"buffers":
 	[
 		{
+			"contents": "",
 			"file": "index.html",
+			"file_size": 22532,
+			"file_write_time": 130089774588810796,
 			"settings":
 			{
-				"buffer_size": 22529,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -40,6 +43,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Jason/Documents/GitHub/portfolio/index.html",
+		"/C/Users/Jason/JSB_Portfolio/README",
 		"/C/Users/Jason/Desktop/PortfolioJSB13/jason.sublime-workspace",
 		"/C/Users/Jason/Desktop/PortfolioJSB13/js/carousel.js",
 		"/C/Users/Jason/Desktop/PortfolioJSB13/robot.txt",
@@ -99,15 +104,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 22529,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2292,
-								2292
+								0,
+								0
 							]
 						],
 						"settings":
@@ -117,7 +122,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1432.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
