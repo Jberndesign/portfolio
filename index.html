@@ -132,20 +132,15 @@ responsive css for tablets*/
       margin-top: 10px;
     }
 
-
-
-
+    #logo img {margin: 60px 0px 0px 0px;}
     </style>
+
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
-  
-
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     
       <script src="../assets/js/html5shiv.js"></script>
-
 
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
@@ -155,140 +150,124 @@ responsive css for tablets*/
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
 
   </head>
-  <body>
-    
 
-
-<!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
-  </head>
-
-  <body>
+<body>
 
 <!-- Navbar -->
 <div class="row">
-<div class="navbar">
+  <div class="navbar-fixed-top">
     <div class="navbar navbar-inverse">
       <div class="navbar-inner">
 
-          <!-- Navbar collapse button -->
+<!-- Navbar collapse button -->
           <div class="row">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="padding-top: 30px;">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="padding-top: 30px;">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+          </div>
 
- <!--Static Navbar contents -->
-  <a class="brand" href="logo.gif" style="padding-left:50px;"> Jason S. Bernotsky </a>
+<!--Static Navbar contents -->
+  <a class="brand" href="#" style="padding-left:50px;"> Jason S. Bernotsky </a>
 
 <!--collapsible navbar contents -->
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+    <div class="nav-collapse collapse">
+       <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
 
 <!--dropdown menu in navbar -->
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#watch">Vital Link Sport/Medical Watch</a></li>
-                  <li><a href="#Aquafit">Aquafit Vibro-Haptic Flotation Belt</a></li>
-                  <li><a href="#">Scorpian Laptop Case</a></li>
-                  <li><a href="#">Eos Bedside Lamp</a><li>
-                  <li><a href="#">Charcube Stove</a><li>
+          <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#watch">Vital Link Sport/Medical Watch</a></li>
+              <li><a href="#Aquafit">Aquafit Vibro-Haptic Flotation Belt</a></li>
+              <li><a href="#eos">Scorpian Laptop Case</a></li>
+              <li><a href="#scorpian">Eos Bedside Lamp</a><li>
+              <li><a href="#charcube">Charcube Stove</a><li>
 
-                </ul>
+            </ul>
               <li><a href="#contact">Contact</a></li>
               <li><a href="docs/resume.pdf" target="_blank">Resume</a></li>
+          </li>
 
-
-                
-              </li>
-                 <li><a href="https://dl.dropbox.com/u/60435107/portfolio.pdf" target="_blank"> Physical Portfolio </a></li>
-            </ul>
+              <li><a href="https://dl.dropbox.com/u/60435107/portfolio.pdf" target="_blank"> Physical Portfolio </a></li>
+        </ul>
 
           </div><!--/.nav-collapse -->
         </div>
       </div>
+    </div>
  </div>
- </div>
+</div>
 
-
-    <div class="span12" align="center">
-      <img src= "assets/JSBlogo.png" height="250" width="250" padding-top ="60px">
+<div class="container" id="logo">
+    <div align="center">
+      <img src= "assets/JSBlogo.png" height="250" width="250" >
     <div>
    
 <hr>
       <div align="center">
-       <p> <b> Jason Stanley Bernotsky </b> <br>
-        RPI Class of 2015 <br>
-        Design, Innovation, and Society | Mechanical Engineering <br>
-        </p>
+       <p> <b> Jason Stanley Bernotsky </b> <br> RPI Class of 2015 <br> Design, Innovation, and Society | Mechanical Engineering <br></p>
       </div>
-
 <hr>
-<h2 class="featurette-heading" align="center"> Projects </h2>
+  <h2 class="featurette-heading" align="center"> Projects </h2>
 <hr>
 
-<div class="row" >
+<div align="center">
+  <div class="row">
  <!-- Mediwatch project graphic/information/link -->
         <div class="span2" align="center">
           <img src= "assets/mediwatchexploded.png" height="150" width="150">
           <h3>Vital Link </h3>
-          <p><a class="btn" href="http://jasonbernotsky.myrpi.org/mediband.html">View details &raquo;</a></p>
         </div>
 
 <!-- Aquafit project graphic/information/link -->
 
-  <div class="span2" align="center">
+      <div class="span2" align="center">
           <img src= "assets/Aquafit.png" height="150" width="150">
           <h3>Aquafit Belt</h3>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-  </div>
-
-<!-- Scorpian project graphic/information/links -->       
-  <div class="span2" align="center">
+      </div>
+   
+<!--    Eos Lamp project link -->
+      <div class="span2" align="center">
           <img src="assets/eos.png" height= "150" width="150">
-          <h3> Eos Bedside Lamp</h3>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-  </div>
+          <h3> Eos Lamp</h3>
+      </div>
 
-
-
- <div class="row">
+<!-- Scorpian project graphic/information/links -->    
         <div class="span2" align="center">
           <img src= "assets/scorp.png" height="150" width="150">
-          <h3>Scorpian Laptop Case </h3>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h3>Scorpian</h3>
         </div>
-
+<!-- Charcube Stove graph/info links -->
         <div class="span2" align="center">
           <img src="assets/stove.png" height="150" width="150">
-          <h3>CharCube Stove</h3>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-         </div>
+          <h3>CharCube</h3>
+        </div>
 
-  </div>
+ <!-- Mediwatch project graphic/information/link -->
+        <div class="span2" align="center">
+          <img src= "assets/mediwatchexploded.png" height="150" width="150">
+          <h3> Other Projects </h3>
+        </div>
+      </div>
+   </div>
+ </div>
+
 
   <hr>
-  
-<!--     Box for health watch--> 
+
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
 
+<hr class="featurette-divider" id="watch">
 <!-- MEDIWATCH FEATURETTE -->
-
+<div class="row">
       <div class="featurette">
-
 <!--  ================================================== -->
-          <div id="watch" class="span6">
+          <div class="span6">
             <div class="bs-docs-example">
               <div id="myCarousel" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -325,24 +304,26 @@ responsive css for tablets*/
             </div>
           </div>
 
-        <div class="span5">
+        <div class="span6">
         <h2 class="featurette-heading">Vital Link Smart Watch <span class="muted"> Keeps you on track</span></h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
       </div>
+</div>
 
-      <!-- ===================== -->
-
+<!-- ===================== -->
 <!-- AQUAFIT FEATURETTE-->
-      <hr class="featurette-divider">
+<hr class="featurette-divider" id="Aquafit" >
+     <div class="row">
+      <div class="featurette">
 
-              <div id="Aquafit" class="span6">
+          <div class="span6">
             <div class="bs-docs-example">
               <div id="myCarousel2" class="carousel slide">
                 <ol class="carousel-indicators">
-                  <li data-target="#myCarousel2" data-slide-to="3" class="active"></li>
-                  <li data-target="#myCarousel2" data-slide-to="4"></li>
-                  <li data-target="#myCarousel2" data-slide-to="5"></li>
+                  <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel2" data-slide-to="1"></li>
+                  <li data-target="#myCarousel2" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="item active">
@@ -373,18 +354,20 @@ responsive css for tablets*/
             </div>
           </div>
 
-        <div class="span5">
-        <h2 class="featurette-heading">Aquafit Flotation Belt <span class="muted"> Stay afloat with good posture </span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="span6">
+          <h2 class="featurette-heading">Aquafit Flotation Belt <span class="muted"> Stay afloat with good posture </span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-
       </div>
-
-<hr class="featurette-divider">
   
- <!--      ========================================================================================= -->
+ <!-- ========================================================================================= -->
+
+<!--  ================================================== -->
+
+<hr class="featurette-divider" id="eos">
+    <div class="row">
        <div class="featurette">
-              <div class="span6">
+          <div class="span6">
             <div class="bs-docs-example">
               <div id="myCarousel3" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -421,30 +404,29 @@ responsive css for tablets*/
             </div>
           </div>
 
-
-
-        <div class="span5">
-        <h2 class="featurette-heading">Eos Lamp <span class="muted"> lights up any workspace </span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="span6">
+         <h2 class="featurette-heading">Eos Lamp <span class="muted"> lights up any workspace </span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
 
       </div>
+    </div>
+  </div>
 
-<!--  ================================================== -->
 
 
-      <hr class="featurette-divider">
+<!-- SCORPIAN LAPTOP CASE --> 
 
-      <div class="featurette">
-
-<!--  ================================================== -->
+  <hr class="featurette-divider" id="scorpian">
+    <div class="row">
+       <div class="featurette">
           <div class="span6">
             <div class="bs-docs-example">
-              <div id="myCarousel4" class="carousel slide">
+              <div id="myCarousel3" class="carousel slide">
                 <ol class="carousel-indicators">
-                  <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel4" data-slide-to="1"></li>
-                  <li data-target="#myCarousel4" data-slide-to="2"></li>
+                  <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel3" data-slide-to="1"></li>
+                  <li data-target="#myCarousel3" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="item active">
@@ -469,20 +451,93 @@ responsive css for tablets*/
                     </div>
                   </div>
                 </div>
-                <a class="left carousel-control" href="#myCarousel4" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel4" data-slide="next">&rsaquo;</a>
+                <a class="left carousel-control" href="#myCarousel3" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel3" data-slide="next">&rsaquo;</a>
               </div>
             </div>
           </div>
 
-        <div class="span5">
-        <h2 class="featurette-heading">Scorpian Laptop case <span class="muted"> keeps your desk organized </span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="span6">
+         <h2 class="featurette-heading">Scorpian Laptop Case <span class="muted"> Keeps you organized</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
+
       </div>
+    </div>
+  </div>
+
+<!-- CHARCUBE STOVE ===================================================== -->
+  <hr class="featurette-divider" id="charcube">
+    <div class="row">
+       <div class="featurette">
+          <div class="span6">
+            <div class="bs-docs-example">
+              <div id="myCarousel3" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel3" data-slide-to="1"></li>
+                  <li data-target="#myCarousel3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/mediwatchexploded.jpg" alt="Exploded View of an Inventor prototype of the Vital Link Watch">
+                    <div class="carousel-caption">
+                      <h4>First Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Second Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel3" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel3" data-slide="next">&rsaquo;</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="span6">
+         <h2 class="featurette-heading"> CharCube <span class="muted"> efficient and clean burning </span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
 
       <!-- /END THE FEATURETTES -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- close div for container -->
+</div>
+<!--     Box for health watch--> 
 
 
 <!--horizontal rule and footer -->
@@ -495,45 +550,6 @@ responsive css for tablets*/
     </div>
   </div>
 
-
- <!-- Carousel
-    ================================================== -->
-    <!-- <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="../assets/img/examples/slide-01.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="../assets/img/examples/slide-02.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="../assets/img/examples/slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div> --><!-- /.carousel -->
 
 <!-- javascript
 =============================================== -->
