@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<hr>
+  <h2 class="featurette-heading" align="center"> Projects </h2>
+<!-- 
+THUMBNAIL SCROLLER -->
+
+<!-- thumbnail scroller stylesheet -->
+<link href="css/jquery.thumbnailScroller.css" rel="stylesheet" />
+<!-- jquery ui custom build (for animation easing) -->
+<script src="js/jquery-ui-1.8.13.custom.min.js"></script>
+<!-- info -->
+
+<!-- <a href="http://manos.malihu.gr/jquery-thumbnail-scroller" class="postURL"></a>
+<div class="info"><span>malihu </span><br /><span class="big">jQuery Thumbnail Scroller </span>plugin</div> -->
+<!-- thumbnail scroller markup begin -->
+<div id="ts1" class="jThumbnailScroller" style="margin-top:10px;">
+  <div class="jTscrollerContainer">
+    <div class="jTscroller">
+      <a href="#"><img src="assets/mediwatchexploded.png" width="200" /></a>
+      <a href="#"><img src="assets/aquafit.png" width="200"/></a>
+      <a href="#"><img src="assets/eos.png" width="200"/></a>
+      <a href="#"><img src="assets/scorp.png" width="200"/></a>
+      <a href="#"><img src="assets/stove.png" width="200" /></a>
+    </div>
+  </div>
+  <a href="#" class="jTscrollerPrevButton"></a>
+  <a href="#" class="jTscrollerNextButton"></a>
+</div>
+<!-- thumbnail scroller markup end -->
+<script>
+/* jQuery.noConflict() for using the plugin along with other libraries. 
+   You can remove it if you won't use other libraries (e.g. prototype, scriptaculous etc.) or 
+   if you include jQuery before other libraries in yourdocument's head tag. 
+   [more info: http://docs.jquery.com/Using_jQuery_with_Other_Libraries] */
+jQuery.noConflict(); 
+/* calling thumbnailScroller function with options as parameters */
+(function($){
+window.onload=function(){ 
+  $("#tS1").thumbnailScroller({ 
+    scrollerType:"hoverAccelerate", 
+    scrollerOrientation:"horizontal", 
+    scrollSpeed:2, 
+    scrollEasing:"easeOutCirc", 
+    scrollEasingAmount:600, 
+    acceleration:4, 
+    scrollSpeed:800, 
+    noScrollCenterSpace:10, 
+    autoScrolling:200, 
+    autoScrollingSpeed:2000, 
+    autoScrollingEasing:"easeInOutQuad", 
+    autoScrollingDelay:500 
+  });
+}
+})(jQuery);
+</script>
+</div>
