@@ -8,6 +8,7 @@
   <head>
     <title>Jason S. Bernotsky portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I am a sophomore at Rensselaer Polytechnic Institute dual majoring in Design, Innovation, and Society and Mechanical Engineering">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -15,6 +16,10 @@
        <!-- Le styles -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
             <style type="text/css">
+
+
+
+
       body {
         
         padding-bottom: 40px;
@@ -133,6 +138,13 @@ responsive css for tablets*/
     }
 
     #logo img {margin: 60px 0px 0px 0px;}
+    #watch img {margin: 5px 5px 5px 5px;}
+        #Aquafit img {margin: 5px 5px 5px 5px;}
+            #eos img {margin: 5px 5px 5px 5px;}
+                #scorpian img {margin: 5px 5px 5px 5px;}
+                    #charcube img {margin: 5px 5px 5px 5px;}
+
+
     </style>
 
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -152,7 +164,46 @@ responsive css for tablets*/
   </head>
 
 <body>
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Contact Jason via Email </h3>
+  </div>
+    <div class="modal-body">
+      <form action="send_mail.php" method="post">
+<table>
+<tr>
+<td>Email Adress:</td>
+<td>
+<input type="text" name="email_address" value="" maxlength="100" />
+</td>
+</tr>
+<tr>
+<td>Comments:</td>
+<td>
+<textarea rows="10" cols="50" name="comments"></textarea>
+</td>
+</tr>
+<tr><td>&nbsp;</td>
+<td>
+<input type="submit" value="Submit" / $('#myModal').modal('hide' 
 
+$('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
+</td>
+</tr>
+</table>
+</form>
+    </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+
+  </div>
+</div>
+
+
+
+
+<a id="top">
 <!-- Navbar -->
 <div class="row">
   <div class="navbar-fixed-top">
@@ -174,7 +225,9 @@ responsive css for tablets*/
 <!--collapsible navbar contents -->
     <div class="nav-collapse collapse">
        <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
+        <li class="divider-vertical"></li>
+            <li class="active"><a href="#top">Home</a></li>
+            <li class="divider-vertical"></li>
 
 <!--dropdown menu in navbar -->
           <li class="dropdown">
@@ -187,12 +240,16 @@ responsive css for tablets*/
               <li><a href="#charcube">Charcube Stove</a><li>
 
             </ul>
-              <li><a href="#contact">Contact</a></li>
+                        <li class="divider-vertical"></li>
+              <li><a href="#myModal" data-toggle="modal">Contact</a></li>
+                          <li class="divider-vertical"></li>
               <li><a href="docs/resume.pdf" target="_blank">Resume</a></li>
           </li>
+                      <li class="divider-vertical"></li>
 
               <li><a href="https://dl.dropbox.com/u/60435107/portfolio.pdf" target="_blank"> Physical Portfolio </a></li>
-        </ul>
+                    <li class="divider-vertical"></li>
+                     </ul>
 
           </div><!--/.nav-collapse -->
         </div>
@@ -204,103 +261,40 @@ responsive css for tablets*/
 
 <div class="hero-unit">
 
-<div class="container" id="logo">
+<div class="container" id="home">
     <div align="center">
       <img src= "assets/JSBlogo.png" height="250" width="250" >
     <div>
    
-      <div align="float-right">
-       <p> <b> Jason Stanley Bernotsky </b> <br> RPI Class of 2015 <br> Design, Innovation, and Society | Mechanical Engineering <br></p>
+      <div align="center">
+       <p> <strong> Jason Stanley Bernotsky </strong> <br> RPI Class of 2015 <br> Design, Innovation, and Society | Mechanical Engineering <br></p>
+<a href="http://www.linkedin.com/pub/jason-bernotsky/56/b48/871">
+      
+          <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jason Bernotsky's profile on LinkedIn">
+        
+    </a>
+
       </div>
-<!-- COLLAPSABLE THUMBNAILS BUTTON -->
-<!-- make the thumbnails collapse -->
-<!-- ASSIGNS THE ID -->
-<div id="thumb" class="collapse">
-<div align="center">
-  <div class="row">
- <!-- Mediwatch project graphic/information/link -->
-        <div class="span2" align="center">
-          <img src= "assets/mediwatchexploded.png" height="150" width="150">
-          <h3>Vital Link </h3>
-        </div>
-
-<!-- Aquafit project graphic/information/link -->
-
-      <div class="span2" align="center">
-          <img src= "assets/Aquafit.png" height="150" width="150">
-          <h3>Aquafit Belt</h3>
-      </div>
-   
-<!--    Eos Lamp project link -->
-      <div class="span2" align="center">
-          <img src="assets/eos.png" height= "150" width="150">
-          <h3> Eos Lamp</h3>
-      </div>
-
-<!-- Scorpian project graphic/information/links -->    
-        <div class="span2" align="center">
-          <img src= "assets/scorp.png" height="150" width="150">
-          <h3>Scorpian</h3>
-        </div>
-<!-- Charcube Stove graph/info links -->
-        <div class="span2" align="center">
-          <img src="assets/stove.png" height="150" width="150">
-          <h3>CharCube</h3>
-        </div>
-
- <!-- Mediwatch project graphic/information/link -->
-        <div class="span2" align="center">
-          <img src= "assets/mediwatchexploded.png" height="150" width="150">
-          <h3> Other Projects </h3>
-        </div>
-      </div>
-
-   </div>
-
- </div>
- <button type="button" class="btn btn-PRIMARY" data-toggle="collapse" data-target="#thumb">
- <h2 class="featurette-heading" align="center"> Design Projects </h2>
-</button>
-</div>
-</div>
+    </div>
 
       <!-- START THE FEATURETTES -->
 
 <!-- MEDIWATCH FEATURETTE -->
 <hr class="featurette-divider" id="watch">
+<div class="container">
 <div class="row">
       <div class="featurette">
 <!--  ================================================== -->
           <div class="span6">
-            <div class="bs-docs-example">
-              <div id="myCarousel" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
                   <div class="item active">
-                    <img src="images/mediwatchexploded.jpg" alt="Exploded View of an Inventor prototype of the Vital Link Watch">
+                    <img src="images/mediwatchexploded.jpg" alt="Exploded View of an Inventor prototype of the Vital Link Watch" width="500">
                   </div>
-                  <div class="item">
-                    <img src="images/mediwatchexploded.jpg" alt="">
-                  </div>
-                  <div class="item">
-                    <img src="images/mediwatchexploded.jpg" alt="">
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
               </div>
-            </div>
-          </div>
-
         <div class="span6">
         <h2 class="featurette-heading" align="left">Vital Link Smart Watch <span class="muted"> Keeps you on track</span></h2>
-        <p class="lead" align="left"> Mediband is a personal medical monitoring system which, using an innovative design records and analyzes the vital statistics of the user, allowing them to know exactly what is going on inside of their bodies at any given time. This information can then be used to diagnose and prevent the onset of illnesses related to Sudden Cardiac Death.
+        <p class="lead" align="left"> The Vital Link is a personal medical monitoring system which, using an innovative design records and analyzes the vital statistics of the user, allowing them to know exactly what is going on inside of their bodies at any given time. This information can then be used to diagnose and prevent the onset of illnesses related to Sudden Cardiac Death.
 <br>
-          <b> Winner; RPI Change the World Competition 2012 </b>
+           <strong> Winner; RPI Change the World Competition 2012  </strong>
          </p>
         </div>
       </div>
@@ -312,33 +306,13 @@ responsive css for tablets*/
       <div class="featurette">
 
           <div class="span6">
-            <div class="bs-docs-example">
-              <div id="myCarousel2" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel2" data-slide-to="1"></li>
-                  <li data-target="#myCarousel2" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="images/aquafit3.jpg" alt="">
-                  </div>
-                  <div class="item">
-                    <img src="images/aquafit1.png" alt="">
-                  </div>
-                  <div class="item">
-                    <img src="images/aquafit2.jpg" alt="">
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-              </div>
-            </div>
+            <img src="images/aquafit3.jpg" width="500">
+
           </div>
 
         <div class="span6">
-          <h2 class="featurette-heading">Aquafit Flotation Belt <span class="muted"> Stay afloat with good posture </span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading" align="left">Aquafit Flotation Belt <span class="muted"> Stay afloat with good posture </span></h2>
+          <p class="lead" align="left">The AquaFit water fitness belt is carefully designed to harness aesthetics and usability to revolutionize aquatic fitness. From the attachment system to the power switch to the vibro-haptic feedback system, AquaFit vastly improves the water fitness experience and provide class participants a quality core workout. By fostering good posture and balance, Aquafit enables swimmers, specifically the participants aged 50-60 years old, to obtain the proper exercise necessary to relieve pain and promote healthy living. </p>
         </div>
       </div>
   
@@ -350,48 +324,14 @@ responsive css for tablets*/
     <div class="row">
        <div class="featurette">
           <div class="span6">
-            <div class="bs-docs-example">
-              <div id="myCarousel3" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel3" data-slide-to="1"></li>
-                  <li data-target="#myCarousel3" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="images/lightdesklampmodepic.jpg" alt="Exploded View of an Inventor prototype of the Vital Link Watch">
-                    <div class="carousel-caption">
-                      <h4>First Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="images/lampwallview.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Second Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="images/lightbedview.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Third Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel3" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel3" data-slide="next">&rsaquo;</a>
-              </div>
-            </div>
+            <img src="images/eoslamp.png" width="500">
           </div>
 
         <div class="span6">
-         <h2 class="featurette-heading">Eos Lamp <span class="muted"> lights up any workspace </span></h2>
-          <p class="lead">   The Eos EcoFlex Lamp is a redesign of an old bedside clip-on lamp. The Eos Lamp is an ideal solution targeted primarily at the college student. The Eos Lamp has a multifunctional design which allows it to be used as a bedside lamp, hung on a wall, or simply placed on the desk, while being minimalistic,unobtrusive, and aesthetically appealing.
+         <h2 class="featurette-heading" align="left">Eos Lamp <span class="muted"> lights up any workspace </span></h2>
+          <p class="lead" align="left">   The Eos EcoFlex Lamp is a redesign of an old bedside clip-on lamp. The Eos Lamp is an ideal solution targeted primarily at the college student. The Eos Lamp has a multifunctional design which allows it to be used as a bedside lamp, hung on a wall, or simply placed on the desk, while being minimalistic,unobtrusive, and aesthetically appealing.
             <br>
-          The lamp uses LED technology and a wide range of movement to direct light where it is needed (at the user’s workspace), rather than dispersing it throughout the entire room, making it perfect for group living situations such as college dorms, and utilizing much less energy than any conventional light bulbs in the market. The Lamp has a rechargeable battery which lasts for days of use without charging so that no cables need be used.</p>
-        </div>
+          The lamp uses LED technology and a wide range of movement to direct light where it is needed (at the user’s workspace), rather than dispersing it throughout the entire room, making it perfect for group living situations such as college dorms, and utilizing much less energy than any conventional light bulbs in the market. The Lamp has a rechargeable battery which lasts for days of use without charging, making the lamp adaptable and easily moved. </p>
 
       </div>
     </div>
@@ -430,8 +370,10 @@ responsive css for tablets*/
           </div>
 
         <div class="span6">
-         <h2 class="featurette-heading">Scorpian Laptop Case <span class="muted"> Keeps you organized</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+         <h2 class="featurette-heading" align="left">Scorpian Laptop Case <span class="muted"> Keeps you organized</span></h2>
+          <p class="lead" align="left">The Scorpian studio laptop case is a user-friendly design which easily converts into a laptop workstation when opened in order to save desk space while working in a studio setting. 
+          The design implements several key usability features; the most identifying feature of them being the flexible spine that forms the support structure for laptop stand configuration. The Scorpian is designed specifically with the needs and work environment of PDI students, and so the case uses the dimensions of the T-420 laptop, which is RPI distributed, and so is owned by a great majority of the target user group. (PDI students)
+</p>
         </div>
 
       </div>
@@ -443,58 +385,20 @@ responsive css for tablets*/
     <div class="row">
        <div class="featurette">
           <div class="span6">
-<!--  --><!--             <div class="bs-docs-example">
-              <div id="myCarousel3" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel5" data-slide-to="1"></li>
-                  <li data-target="#myCarousel5" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="images/mediwatchexploded.jpg" alt="Exploded View of an Inventor prototype of the Vital Link Watch">
-                  </div>
-                  <div class="item">
-                    <img src="assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
-                  </div>
-                  <div class="item">
-                    <img src="assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel3" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel3" data-slide="next">&rsaquo;</a>
-              </div>
-            </div> -->
-            <img src="images/fullstoveassembly2.jpg">
+            <img src="images/fullstoveassembly2.jpg" width="500">
           </div>
 
         <div class="span6">
-         <h2 class="featurette-heading"> CharCube <span class="muted"> efficient and clean burning </span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
+         <h2 class="featurette-heading" align="left"> CharCube <span class="muted"> efficient and clean burning </span></h2>
+          <p class="lead" align="left">The Char Cube is an innovative solution designed to cater to the needs of Indian refugees in need of a cleaner means of cooking food cheaply and efficiently. The Stove itself is a closed system, heating both food and water simultaneously via a conductive heat plate attached to a ventilation system that is surrounded by a water jacket. This design utilizes thermal energy that would otherwise be lost in the exhaust to the surrounding environment, and maximizes complete fuel combustion, thereby creating a safer, pollutant-free environment for the user.
 
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
-
-
-
-      <!-- /END THE FEATURETTES -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <!-- /END THE FEATURETTES --
 
 <!-- close div for container -->
 </div>
