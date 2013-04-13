@@ -202,10 +202,25 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
 
 
 
+<!-- Modal that displays after an email has been sent -->
+
+<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3 id="myModalLabel">Modal header</h3>
+</div>
+<div class="modal-body">
+<p>One fine body…</p>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary">Save changes</button>
+</div>
+</div>
 
 <a id="top">
 <!-- Navbar -->
-<div class="row">
+<div class="row" align="center">
   <div class="navbar-fixed-top">
     <div class="navbar navbar-inverse">
       <div class="navbar-inner">
@@ -277,10 +292,25 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
       </div>
     </div>
 
+<div class="row">
+      <div class="featurette">
+          <div class="span8">
+                    <h3 class="featurette-heading" align="left"> About Me </h3>
+                    <p align="left"> I am a Sophomore at RPI studying Design, Innnovation, and Society (DIS), and Mechanical Engineering. you can scroll down this page for some examples of my past work. 
+          </div>
+          <div class="span4">
+            <h3 class="featurette-heading" align="left"> Contact </h3>
+            <p align="left"> I can be reached via my email using the contact form at the top of the page, or you can find me on <a href="http://www.linkedin.com/pub/jason-bernotsky/56/b48/871"> LinkedIn </a>. </p>
+          </div>
+      </div>
+</div>
       <!-- START THE FEATURETTES -->
 
 <!-- MEDIWATCH FEATURETTE -->
 <hr class="featurette-divider" id="watch">
+<div align="center">
+  <h3 class="featurette-heading" align="center"> Projects </h3>
+</div>
 <div class="container">
 <div class="row">
       <div class="featurette">
@@ -292,9 +322,9 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
               </div>
         <div class="span6">
         <h2 class="featurette-heading" align="left">Vital Link Smart Watch <span class="muted"> Keeps you on track</span></h2>
-        <p class="lead" align="left"> The Vital Link is a personal medical monitoring system which, using an innovative design records and analyzes the vital statistics of the user, allowing them to know exactly what is going on inside of their bodies at any given time. This information can then be used to diagnose and prevent the onset of illnesses related to Sudden Cardiac Death.
+        <p align="left"> The Vital Link is a personal medical monitoring system which, using an innovative design records and analyzes the vital statistics of the user, allowing them to know exactly what is going on inside of their bodies at any given time. This information can then be used to diagnose and prevent the onset of illnesses related to Sudden Cardiac Death.
 <br>
-           <strong> Winner; RPI Change the World Competition 2012  </strong>
+           <strong> Winner; <a href="http://www.eship.rpi.edu/ctwc_spring_winner_announcement_2012.php"> RPI Change the World Competition 2012 </a> </strong>
          </p>
         </div>
       </div>
@@ -307,12 +337,11 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
 
           <div class="span6">
             <img src="images/aquafit3.jpg" width="500">
-
           </div>
 
         <div class="span6">
           <h2 class="featurette-heading" align="left">Aquafit Flotation Belt <span class="muted"> Stay afloat with good posture </span></h2>
-          <p class="lead" align="left">The AquaFit water fitness belt is carefully designed to harness aesthetics and usability to revolutionize aquatic fitness. From the attachment system to the power switch to the vibro-haptic feedback system, AquaFit vastly improves the water fitness experience and provide class participants a quality core workout. By fostering good posture and balance, Aquafit enables swimmers, specifically the participants aged 50-60 years old, to obtain the proper exercise necessary to relieve pain and promote healthy living. </p>
+          <p align="left">The AquaFit water fitness belt is carefully designed to harness aesthetics and usability to revolutionize aquatic fitness. From the attachment system to the power switch to the vibro-haptic feedback system, AquaFit vastly improves the water fitness experience and provide class participants a quality core workout. By fostering good posture and balance, Aquafit enables swimmers, specifically the participants aged 50-60 years old, to obtain the proper exercise necessary to relieve pain and promote healthy living. </p>
         </div>
       </div>
   
@@ -324,12 +353,12 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
     <div class="row">
        <div class="featurette">
           <div class="span6">
-            <img src="images/eoslamp.png" width="500">
-          </div>
+            <img src ="images/eoslamp.png" width="500">
+              </div>
 
         <div class="span6">
          <h2 class="featurette-heading" align="left">Eos Lamp <span class="muted"> lights up any workspace </span></h2>
-          <p class="lead" align="left">   The Eos EcoFlex Lamp is a redesign of an old bedside clip-on lamp. The Eos Lamp is an ideal solution targeted primarily at the college student. The Eos Lamp has a multifunctional design which allows it to be used as a bedside lamp, hung on a wall, or simply placed on the desk, while being minimalistic,unobtrusive, and aesthetically appealing.
+          <p align="left">   The Eos EcoFlex Lamp is a redesign of an old bedside clip-on lamp. The Eos Lamp is an ideal solution targeted primarily at the college student. The Eos Lamp has a multifunctional design which allows it to be used as a bedside lamp, hung on a wall, or simply placed on the desk, while being minimalistic,unobtrusive, and aesthetically appealing.
             <br>
           The lamp uses LED technology and a wide range of movement to direct light where it is needed (at the user’s workspace), rather than dispersing it throughout the entire room, making it perfect for group living situations such as college dorms, and utilizing much less energy than any conventional light bulbs in the market. The Lamp has a rechargeable battery which lasts for days of use without charging, making the lamp adaptable and easily moved. </p>
 
@@ -354,7 +383,7 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
                 </ol>
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="images/frontview.png" alt="Exploded View of an Inventor prototype of the Vital Link Watch">
+                    <img src="images/frontview.png" alt="">
                   </div>
                   <div class="item">
                     <img src="images/front.png" alt="">
@@ -371,7 +400,7 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
 
         <div class="span6">
          <h2 class="featurette-heading" align="left">Scorpian Laptop Case <span class="muted"> Keeps you organized</span></h2>
-          <p class="lead" align="left">The Scorpian studio laptop case is a user-friendly design which easily converts into a laptop workstation when opened in order to save desk space while working in a studio setting. 
+          <p align="left">The Scorpian studio laptop case is a user-friendly design which easily converts into a laptop workstation when opened in order to save desk space while working in a studio setting. 
           The design implements several key usability features; the most identifying feature of them being the flexible spine that forms the support structure for laptop stand configuration. The Scorpian is designed specifically with the needs and work environment of PDI students, and so the case uses the dimensions of the T-420 laptop, which is RPI distributed, and so is owned by a great majority of the target user group. (PDI students)
 </p>
         </div>
@@ -385,12 +414,12 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
     <div class="row">
        <div class="featurette">
           <div class="span6">
-            <img src="images/fullstoveassembly2.jpg" width="500">
+            <img src="images/Charcube.jpg" width="400">
           </div>
 
         <div class="span6">
          <h2 class="featurette-heading" align="left"> CharCube <span class="muted"> efficient and clean burning </span></h2>
-          <p class="lead" align="left">The Char Cube is an innovative solution designed to cater to the needs of Indian refugees in need of a cleaner means of cooking food cheaply and efficiently. The Stove itself is a closed system, heating both food and water simultaneously via a conductive heat plate attached to a ventilation system that is surrounded by a water jacket. This design utilizes thermal energy that would otherwise be lost in the exhaust to the surrounding environment, and maximizes complete fuel combustion, thereby creating a safer, pollutant-free environment for the user.
+          <p align="left">The Char Cube is an innovative solution designed to cater to the needs of Indian refugees in need of a cleaner means of cooking food cheaply and efficiently. The Stove itself is a closed system, heating both food and water simultaneously via a conductive heat plate attached to a ventilation system that is surrounded by a water jacket. This design utilizes thermal energy that would otherwise be lost in the exhaust to the surrounding environment, and maximizes complete fuel combustion, thereby creating a safer, pollutant-free environment for the user.
 
           </p>
         </div>
