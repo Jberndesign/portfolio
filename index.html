@@ -186,16 +186,16 @@ responsive css for tablets*/
 </tr>
 <tr><td>&nbsp;</td>
 <td>
-<input type="submit" value="Submit" / $('#myModal').modal('hide' 
+<input type="submit" value="Submit" onclick="closeWindow()"> <!-- / $('#myModal').modal('hide' 
 
-$('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
+$('#myModal').on('hidden', function ({$('#myModal2').modal('show')) > -->
 </td>
 </tr>
 </table>
 </form>
     </div>
   <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true" onclick="closeWindow()">Close</button>
 
   </div>
 </div>
@@ -203,20 +203,6 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
 
 
 <!-- Modal that displays after an email has been sent -->
-
-<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-<h3 id="myModalLabel">Modal header</h3>
-</div>
-<div class="modal-body">
-<p>One fine body…</p>
-</div>
-<div class="modal-footer">
-<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-<button class="btn btn-primary">Save changes</button>
-</div>
-</div>
 
 <a id="top">
 <!-- Navbar -->
@@ -453,5 +439,6 @@ $('#myModal').on('hidden', function ({$('#myModal2').modal('show')) >
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script src="js/closeWindow.js"></script>
   </body>
 </html>
